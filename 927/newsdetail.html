@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>动态详情</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css" /> 
+    <link href="style/mb.css" rel="stylesheet" type="text/css" /> 
+    <link href="style/swiper.css" rel="stylesheet" type="text/css" />
+    <link href="style/animate.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/iconlogo.png" type="image/png">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/swiper.jquery.js"></script>
+</head>
+<body>
+    <div class="header w100 hidden-xs">
+        <div class="header-mid w1200">
+            <div class="header-mid-top">
+                <p class="fl">您好，欢迎来到青岛淳德经筋</p>
+                <p class="fr">电话：0538-55648705       0538-36974517</p>
+            </div><div class="cl"></div>
+            <div class="header-mid-bot">
+                <div class="fl logo">
+                    <img class="fl" src="images/logo.png"/>
+                    <p class="fl">传授一门技术，打造一方明医<span class="disb">Teach a technique and build a famous doctor</span></p>
+                </div>
+                <ul class="menu fr">
+                    <li class="fl">
+                        <a href="index.html">首页<span class="disb">Home</span></a>
+                    </li>
+                    <li class="fl">
+                        <a href="aboutus.html">关于我们<span class="disb">AboutUs</span></a>
+                    </li>
+                    <li class="fl">
+                        <a href="teachers.html">优秀师资<span class="disb">Teachers</span></a>
+                    </li>
+                    <li class="fl">
+                        <a href="course.html">培训课程<span class="disb">Curriculum</span></a>
+                    </li>
+                    <li class="fl">
+                        <a href="news.html">淳德动态<span class="disb">Dynamic</span></a>
+                    </li>
+                    <li class="fl">
+                        <a href="sharecase.html">案例共享<span class="disb">Case</span></a>
+                    </li>
+                    <li class="fl">
+                        <a href="video.html">视频教程<span class="disb">Video</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+         <nav class="nav w100 visible-xs">
+            <img class="nav-brand" src="images/logo.png"/>
+            <img class="nav-btn" src="images/navbtn.png"/>
+            <ul class="nav-menu">
+                 <li class="active"><a href="index.html">首页</a></li>
+                 <li><a href="aboutus.html">关于我们</a></li>
+                 <li><a href="teachers.html">优秀师资</a></li>
+                 <li><a href="course.html">培训课程</a></li>
+                 <li><a href="news.html">淳德动态</a></li>
+                 <li><a href="sharecase.html">案例共享</a></li>
+                 <li><a href="video.html">视频教程</a></li>
+             </ul>
+        </nav>
+    <script>
+        $(function(){
+            $(".nav-btn").click(function(){
+                $(".nav-menu").slideToggle()
+            })
+        })
+    </script>
+    <div class="swiper-container w100 hidden-xs">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner1.png"/><img class="banner1-text animated fadeInLeft" src="images/banner-text.png"/></div>
+            <div class="swiper-slide"><img src="images/banner1.png"/><img class="banner1-text animated fadeInLeft" src="images/banner-text.png"/></div>
+            <div class="swiper-slide"><img src="images/banner1.png"/><img class="banner1-text animated fadeInLeft" src="images/banner-text.png"/></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <a class="liji disi animated fadeInLeft" href="#">立即报名</a>
+        <a class="lizx disi animated fadeInLeft" href="#">立即咨询</a>
+    </div>
+    <div class="swiper-container w100 visible-xs">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner1-mb.png"/></div>
+            <div class="swiper-slide"><img src="images/banner1-mb.png"/></div>
+            <div class="swiper-slide"><img src="images/banner1-mb.png"/></div>
+        </div>
+    </div>
+    <div class="newsdetail w1200 xs100">
+        <p class="newsdetail-title text-c">国务委员王勇视察中农发集团中牧研究院</p>
+        <p class="newsdetail-tit text-c"><span class="hidden-xs">来源：</span><span>作者：张三</span><span>发布时间：2017-09-22</span><span class="hidden-xs">333次浏览</span></p>
+        <div class="newsdetail-detail w100">
+            <img class="m" src="images/newsdetial.png"/>
+            <p class="newsdetial-p ind">     2016年8月19日，国务院派驻中国农发集团公司新一届监事会进驻大会在集团总部召开。监事会主席杜渊泉出席会议并讲话，15办主任张方宣读了国资委《关于派驻中国农业发展集团有限公司监事会的通知》和监事会“六要六不”行为规范。集团董事长、党委书记、总经理余涤非主持会议并讲话。<br></p>
+            <p class="newsdetial-p ind">     杜渊泉在讲话中强调了外派监事会工作的重要意义，对监事会工作职责和主要任务作了详细阐述。他表示，在新的任期，监事会将认真贯彻落实党的十八大和十八届历次全会精神，深入学习贯彻习近平总书记系列重要讲话精神，按照党中央、国务院关于深化国资国企改革的总体部署，坚持和完善外派监事会制度，进一步强化问题和风险导向，以防止国有资产流失、促进国有资本保值增值为主线，在突出监督重点上下功夫、在深入核查问题上下功夫、在报告提质增量上下功夫、在强化成果运用上下功夫、在规范化建设上下功夫，从严从实、持续不断加强和改进监事会工作，增强监督工作的严肃性、权威性、时效性、协调性和有效性，防止国有资产流失，维护国有资本安全，助力中央企业推进供给侧结构性改革、瘦身健体和提质增效，为做强做优做大中央企业，实现国有资产保值增值作出应有贡献。杜主席强调，要切实落实肖亚庆主任提出的“两个融入”和“五个必须”的要求，全力支持和配合监事会的工作，并对今后的工作提出了具体要求。
+    集团副总经理史明山代表经营班子汇报了1-7月集团生产经营进展情况。<br></p>
+            <p class="newsdetial-p ind">     余涤非董事长作了表态发言，代表集团对监事会进驻农发集团表示坚决拥护和热烈欢迎，要求集团上下深刻认识监事会制度的重要意义，严格执行监事会的各项工作要求，自觉接受监事会的监督，在工作实际中积极配合、主动支持监事会的工作，为监事会履职提供必要的工作条件和服务保障。
+    集团公司领导班子成员、总部部门负责人、在京二级企业主要负责人和集团兼职监事参加进驻大会<br></p>
+            <a class="news-prev" href="#">上一篇：没有了</a>
+            <a class="news-next" href="#">下一篇：国务院派驻中国农发集团新一届监事会进驻</a>
+        </div>
+    </div>
+    <div class="footer w100">
+        <div class="footer-top xs-height-auto">
+            <div class="footer-top-mid w1200">
+                <div class="contact fl">
+                    <p class="footer-tit">联系我们</p>
+                    <p class="footer-p">联系人：贾老师</p>
+                    <p class="footer-p">联系电话：010--64064080</p>
+                    <p class="footer-p">联系地址：胶州市香港路宝佳中央湖岸</p>
+                    <a class="fl" href="#"><img src="images/qq.png"/></a>
+                    <a class="fl" href="#"><img src="images/wx.png"/></a>
+                </div>
+                <div class="online fl">
+                    <p class="footer-tit">在线报名</p>
+                    <form>
+                        <input class="fl text-1" type="text" placeholder="您的姓名"/>
+                        <input class="fl text-1" type="text" placeholder="您的电话号码"/>
+                        <input class="text-2" type="text" placeholder="您的详细介绍"/>
+                        <input type="submit" value="立即报名"  />
+                    </form>
+                </div>
+                <div class="ewm fl">
+                    <p class="footer-tit">关注我们</p>
+                    <img class="xs80" src="images/ewm.png"/>
+                </div><div class="cl"></div>
+            </div><div class="cl"></div>
+        </div><div class="cl"></div>
+        <div class="footer-bot hidden-xs">版权所有：青岛淳德堂      备案号：粤ICP备1568874455612号-1     技术支持：华夏商务网 </div>
+        <div class="footer-bot visible-xs">版权所有：青岛淳德堂 技术支持：华夏商务网 </div>
+    </div>
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+        loop: true
+    });
+</script>
+</body>
+</html>
